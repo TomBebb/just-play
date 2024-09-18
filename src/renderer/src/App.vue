@@ -3,6 +3,6 @@ const ipcHandle = () => window.electron.ipcRenderer.send('ping')
 </script>
 
 <template>
-  <div class="top-0 sticky h-8 bg-primary-content text-primary select-none">Heading</div>
+  <div class="navbar top-0 sticky h-8 bg-base-200 select-none">Heading</div>
   <RouterView />
 </template>
